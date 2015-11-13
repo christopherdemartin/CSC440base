@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=prodName\ skusku\ quant
+comment0.target=OrderLine(java.lang.String,\ int,\ int)
+comment1.params=
+comment1.target=java.lang.String\ getProdName()
+comment2.params=
+comment2.target=int\ getSku()
+comment3.params=
+comment3.target=int\ getQuantity()
+numComments=4

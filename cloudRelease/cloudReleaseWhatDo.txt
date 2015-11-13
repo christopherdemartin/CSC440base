@@ -1,0 +1,22 @@
+Make an Amazon AWS account. 
+Under the services, choose EC2. 
+Launch instance, Ubuntu server
+Microinstance free tier eligible, next until you get to Configure Security Group.
+It already added SSH, but now you need to click add a rule and choose mySQL/Auroa, change source to anywhere.
+Launch, it will make a key for you and call it whatever you want.
+ 
+Download puttygen. Run it and click load, all files, and find the .pem key it made.
+Save it as a .ppk. Go to your running instance and find your public DNS. 
+Copy it, and paste the DNS where you normally put panther.adelphi.edu in PuTTY.
+On the left column, expand SSH, click Auth, choose your .ppk key. 
+You should now be able to connect to the server, login as Ubuntu. 
+
+Run updates, download mySQL. On your old database do a mysqldump and you can restore that to a new database on this server.
+
+-----------
+
+Java
+
+use library mysql-connector-java... found in
+program files/mysql/connector j/...
+

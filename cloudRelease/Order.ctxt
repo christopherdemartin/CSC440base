@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=status\ orderNum
+comment0.target=Order(java.lang.String,\ int)
+comment1.params=updatedStatus
+comment1.target=void\ setStatus(java.lang.String)
+comment2.params=newNum
+comment2.target=void\ setOrderNum(int)
+comment3.params=
+comment3.target=java.lang.String\ getStatus()
+comment4.params=
+comment4.target=int\ getOrderNum()
+numComments=5

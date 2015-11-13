@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=cloudDatabaseManager()
+comment1.params=custId\ prodId\ quantity\ stat
+comment1.target=boolean\ addOrder(int,\ int,\ int,\ java.lang.String)
+comment2.params=n\ status
+comment2.target=boolean\ changeStatus(int,\ java.lang.String)
+comment3.params=n
+comment3.target=Order\ getOrder(int)
+comment4.params=
+comment4.target=java.util.ArrayList\ getAllOrders()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
