@@ -1,0 +1,7 @@
+git commands
+once you get to your git folder in git bash
+git status
+git add -A
+git status
+git commit -m "for example: initial commit"
+git push origin master
