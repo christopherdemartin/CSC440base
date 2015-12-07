@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=d\ elementName\ elementText
+comment0.target=org.w3c.dom.Element\ createElementWithText(org.w3c.dom.Document,\ java.lang.String,\ java.lang.String)
+comment1.params=e\ tagName
+comment1.target=java.lang.String\ getChildText(org.w3c.dom.Element,\ java.lang.String)
+comment1.text=\r\n\ \ \ Returns\ the\ textContent\ of\ the\ first\ child\ with\ tagName;\r\n\ \ \ returns\ null\ if\ no\ such\ child\ exists.\r\n
+comment2.params=nList
+comment2.target=java.util.List\ convertNodeList(org.w3c.dom.NodeList)
+comment2.text=\r\n\ \ \ NodeList\ is\ a\ minimal\ implementation;\r\n\ \ \ this\ method\ is\ useful\ when\ additional\ functionality\ is\ needed.\r\n
+comment3.params=e\ tagName
+comment3.target=java.util.List\ getElementsByTagName(org.w3c.dom.Element,\ java.lang.String)
+comment3.text=\r\n\ \ \ Alternative\ to\ provided\ method\ with\ a\ more\ useful\ return\ type.\r\n
+comment4.params=e\ tagName
+comment4.target=org.w3c.dom.Element\ getElementByTagName(org.w3c.dom.Element,\ java.lang.String)
+comment4.text=\r\n\ \ \ Get\ the\ first\ child\ element\ with\ the\ given\ tag\ name\ (null\ if\ none\ exists).\r\n
+comment5.params=originalList\ name\ text
+comment5.target=java.util.List\ filter(java.util.List,\ java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ \ \ Returns\ a\ sublist\ of\ originalList.\r\n\ \ \ Every\ element\ in\ the\ sublist\ \r\n\ \ \ \ \ has\ a\ child\ of\ the\ form\ <name>text</name>.\r\n\ \ \ (Assumes\ at\ most\ one\ child\ with\ tag\ <name>.)\r\n
+comment6.params=nList\ name\ text
+comment6.target=java.util.List\ filter(org.w3c.dom.NodeList,\ java.lang.String,\ java.lang.String)
+numComments=7
