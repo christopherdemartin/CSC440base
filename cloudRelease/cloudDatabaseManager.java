@@ -52,10 +52,19 @@ public class cloudDatabaseManager
         }
     }
     
-    //public boolean removeOrder(int id)
-    //{
-        
-    //}
+    public boolean removeOrder(int id)
+    {
+        try 
+        {
+            this.st.execute("DELETE FROM database.orders WHERE orderNumber = " + id + ";" );
+            return true;
+        }
+        catch (Exception ex) 
+        {
+            System.out.println(ex.getMessage());
+            return false;
+        }
+    }
 
     public Order getOrder(int n) 
     {
