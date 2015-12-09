@@ -38,11 +38,11 @@ public class cloudDatabaseManager
         }
     }
 
-    public boolean changeStatus(int n, String status)
+    public boolean changeOrder(String column, int n, String status)
     {
         try 
         {
-            this.st.execute("UPDATE database.orders SET orderStatus = '" + status + "' WHERE id = " + n);
+            this.st.execute("UPDATE database.orders SET " + column + " = '" + status + "' WHERE id = " + n);
             return true;
         }
         catch (Exception ex) 
@@ -51,6 +51,11 @@ public class cloudDatabaseManager
             return false;
         }
     }
+    
+    //public boolean removeOrder(int id)
+    //{
+        
+    //}
 
     public Order getOrder(int n) 
     {
